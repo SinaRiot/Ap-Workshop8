@@ -44,7 +44,7 @@ public class Notebook {
 
         System.out.println("Enter the number of the note you want to remove: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         if (choice > 0 && choice <= titles.size()) {
             String title = titles.get(choice - 1);
@@ -72,7 +72,7 @@ public class Notebook {
 
         System.out.println("Enter the number of the note you want to view: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         if (choice > 0 && choice <= titles.size()) {
             String title = titles.get(choice - 1);
@@ -114,7 +114,7 @@ public class Notebook {
             System.out.println("0. Exit");
             System.out.print("Enter your choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
